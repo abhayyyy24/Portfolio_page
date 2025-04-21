@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: center;
     gap:2rem;
-    
     background-color: rgb(30, 34, 46);
 }
 .navbar a{
@@ -19,17 +18,17 @@
 }
 
 .hero-section{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     color:#fefaff;
     background-color:rgb(30, 34, 46) ;
     height:80vh;
-    display:flex;
 }
 .hero-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 4vh;
-    padding-top: 20vh;
+    flex:1;
     
 }
 .hi{
@@ -47,11 +46,19 @@
     color:#fc7232
 }
 .hero-design{
-    padding-top:20vh;
-    height:8vh;
-    width:8vh;
+    max-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    width:40vh;
 }
-
+.hero-design img {
+    max-width: 100%;
+    height: auto;
+    width:40vh; 
+    
+}
 /*Skills*/
 .skill{
     background-color:rgb(30, 34, 46);
@@ -89,5 +96,5 @@
     font-family: monospace;
     font-size: 1rem;
     padding-top: 5vh;
-    color:#fefaff
+    color:#fefaff;
 }
