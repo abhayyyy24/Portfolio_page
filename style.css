@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin:0;
+    background-color: rgb(30, 34, 46);
 }
 .navbar{
     padding: 4vh;
@@ -15,86 +16,4 @@
     color:#fefaff;
     font-family: monospace;
     font-size: 1rem;
-}
-
-.hero-section{
-    padding-left: 5vh;
-    padding-right: 5vh;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    color:#fefaff;
-    background-color:rgb(30, 34, 46) ;
-    height:80vh;
-}
-.hero-text{
-    flex:1;
-    
-}
-.hi{
-    font-family:arial;
-    font-size: 4rem;
-    color:#ea49fc;
-}
-.name{
-    font-family: poppins;
-    font-size: 3rem;
-}
-.tagline{
-    font-family: monospace;
-    font-size: 1rem;
-    color:#fc7232
-}
-.hero-design{
-    max-width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:40vh;
-    width:40vh;
-}
-.hero-design img {
-    max-width: 100%;
-    height: auto;
-    width:40vh; 
-    
-}
-/*Skills*/
-.skill{
-    background-color:rgb(30, 34, 46);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding:5vh
-}
-.heading{
-    font-size: 3rem;
-    font-family: helvetica;
-    color: #fefaff;
-    font-weight: 600;
-}
-.languages{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.frameworks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.subheading{
-    font-family: helvetica;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color:#ea49fc;
-    padding-top: 6vh;
-}
-
-.icon{
-    font-family: monospace;
-    font-size: 1rem;
-    padding-top: 5vh;
-    color:#fefaff;
 }
