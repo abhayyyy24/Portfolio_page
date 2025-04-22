@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!--Navbar-->
@@ -31,6 +32,9 @@
             <p class="hi">Hi,</p>
             <p class="name">I am Abhay Pawar.</p>
             <p class="tagline">A passionate Future </p><p class="typing"></p>
+            <div class="download">
+                <a href="https://drive.google.com/file/d/1g33uDw5g3q-09NccX5J6TqDx36qE53Yo/view?usp=drive_link" class="down-btn" >Download_CV</a>
+            </div>
         </div>
     </div>
 
@@ -41,7 +45,7 @@
         <div class="section">
             <p class="subheading">Languages</p>
             <div class="logo">
-                <img class="icon" src="./assets/c++.png" alt="logo">
+                <img class="icon" src="./assets/python.png" alt="logo">
                 <img class="icon" src="./assets/c++.png" alt="logo">
                 <img class="icon" src="./assets/js.png" alt="logo">
                 <img class="icon" src="./assets/ts.png" alt="logo">
@@ -72,9 +76,153 @@
                 <img class="icon" src="./assets/scikit.png" alt="logo">
                 <img class="icon" src="./assets/opencv.svg" alt="logo">
             </div>
-        </div>
-
+            <p class="sub2">Tools</p>
+            <div class="logo">
+                <img class="icon" src="./assets/git.png" alt="logo">
+                <img class="icon" src="./assets/post.png" alt="logo">
+            </div>
+        </div>    
     </div>
+
+    <!--Experience Section-->
+    <div class="experience-section">
+        <p class="heading">Experience</p>
+        <div class="timeline">
+            <div class="container left-container">
+                <img src="./assets/infosys.svg" alt="logo">
+                <div class="textbox">
+                    <p class="exp-role">Web Developer Intern</p>
+                    <p class="exp-title">evoqIT.</p>
+                    <small class="exp-date">feb 2025-present</small>
+                    <p class="exp-desc">As a Frontend Development Intern at Evoqit Systems, I built responsive web interfaces using HTML, CSS, JavaScript, and Angular. I developed and optimized UI components, integrated APIs, and implemented dynamic views using Angular's reactive forms and routing. Collaborating with the design team, I translated UI/UX designs into functional features, gaining hands-on experience in clean, maintainable code within an Agile environment.</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="container right-container">
+                <img src="./assets/vector-logo.svg" alt="logo">
+                <div class="textbox">
+                    <p class="exp-role">AI Intern</p>
+                    <p class="exp-title">Infosys Springboard.</p>
+                    <small class="exp-date">nov 2024-feb 2025</small>
+                    <p class="exp-desc">As an AI Intern at Infosys Springboard, I worked on real-world machine learning problems, focusing on data preprocessing, model development, and evaluation. I gained hands-on experience with Python, NumPy, Pandas, and scikit-learn for building and training ML models. I also explored deep learning concepts using TensorFlow and Keras, applying neural networks to tasks such as image and text classification. My work included performance tuning, working with confusion matrices, and optimizing models using metrics like accuracy, precision, and recall. This internship enhanced my understanding of supervised and unsupervised learning, and reinforced my ability to apply AI solutions to practical challenges.</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Projects Section-->
+    <div class="project-section">
+        <p class="heading">Projects</p>
+        <div class="projects">
+            <div class="project-card">
+                <p class="pro-title">Chronic Disease Monitoring</p>
+                <small class="pro-time">oct 2024</small>
+                <p class="stack">techstack used:  Python, Pandas, NumPy, OpenAI Gym, TensorFlow (Keras-RL), Matplotlib</p>
+                <p class="pro-desc">Developed an AI system to predict and manage chronic diseases, particularly focusing on early heart attack prediction, using reinforcement learning. The model was trained using synthetic smartwatch sensor data (e.g., heart rate, SpO2) and implemented a reward-based system to optimize long-term patient health outcomes. The project involved time-series data processing, RL environment design, and policy optimization, simulating proactive healthcare monitoring.</p>
+                <a href="https://github.com/abhayyyy24" class="gitbtn">github repo</a>
+            </div>
+            <div class="project-card">
+                <p class="pro-title">Portfolio App (React Native)</p>
+                <small class="pro-time">oct 2024</small>
+                <p class="stack">techstack used: React Native, JavaScript, React Navigation, Tailwind CSS (via NativeWind), ShadCN/ui</p>
+                <p class="pro-desc">Designed and developed a modern, responsive portfolio app to showcase skills, projects, education, and contact information. The app features smooth navigation, custom components, and an intuitive UI built with React Native. Implemented modular screens for Home, Skills, Education, Projects, and Socials with a sleek design inspired by modern mobile UI trends. Focused on performance, responsiveness, and aesthetic consistency.</p>
+                <a  href="https://github.com/abhayyyy24/Portfolio_app" class="gitbtn">github repo</a>
+            </div>
+            <div class="project-card">
+                <p class="pro-title">Real-Time Sales Analysis</p>
+                <small class="pro-time">oct 2024</small>
+                <p class="stack">tech_stack used: Python, Pandas, Matplotlib, Streamlit</p>
+                <p class="pro-desc">Built a real-time sales analytics dashboard to visualize key business metrics such as revenue trends, product performance, and region-wise sales distribution. Used Streamlit to develop an interactive dashboard that updates dynamically with CSV or live data input. Integrated filtering and charting tools to support data-driven decision-making. Emphasized clean data visualization and user-friendly layout.</p>
+                <a href="https://github.com/abhayyyy24/Real-Time-AI-Sales-Call-Assistant-for-Enhanced-Conversation-Strategies" class="gitbtn">github repo</a>
+            </div>
+            <div class="project-card">
+                <p class="pro-title">Angular based Webpage</p>
+                <small class="pro-time">oct 2024</small>
+                <p class="stack">techstack used: Angular, HTML, CSS, TypeScript, Angular Router</p>
+                <p class="pro-desc">Developed a fully responsive real estate listing webpage using Angular. The site includes components for listing properties, user registration/login, and navigation between views using Angular Router. Created reusable components and implemented a layout with a persistent navbar and dynamic routing. Focused on building a clean, structured, and responsive frontend aligned with modern SPA architecture.</p>
+                <a  href="https://github.com/abhayyyy24/Aptlyst" class="gitbtn">github repo</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Education Section-->
+    <div class="education-section">
+        <p class="heading">Education</p>
+        <div class="education">
+            <div class="circle"></div>
+            <div class="edu-card">
+                <p class="edu-title">Bachelor's in AI & Data Science</p>
+                <p class="edu-uni">SavitriBai Phule Pune University(SPPU)</p>
+                <p class="edu-time">oct 2022 - july2026</p>
+                <p class="edu-course">Course Work : AI/ML, Data science , DBMS , Computer Networks , ANN , Operating Systems</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Certifications section-->
+    <div class="Cert-section">
+        <p class="heading">Certifications</p>
+        <div class="cert">
+            <div class="cert-cards">
+                <p class="cert-title">Advanced Learning Algorithms</p>
+                <p class="platform">Stanford University</p>
+                <p class="cert-time"> sep 2024</p>
+                <p class="cert-desc">In this course, I gained in-depth knowledge of advanced neural networks, including CNNs and RNNs, and learned how to design and optimize them for various AI tasks. The course covered essential optimization techniques like Adam, RMSProp, and advanced methods for hyperparameter tuning and regularization. I also explored advanced topics such as batch normalization, gradient clipping, and techniques for improving model generalization. The practical experience with TensorFlow and Keras helped me understand how to build deep learning systems that perform well across different datasets and problem domains.</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/67QV5OULVVZQ" class="cert-btn">View</a>
+            </div>
+            <div class="cert-cards">
+                <p class="cert-title">Machine Learning Specialization</p>
+                <p class="platform">Stanford University</p>
+                <p class="cert-time"> sep 2024</p>
+                <p class="cert-desc">This specialization provided a comprehensive foundation in machine learning, focusing on both supervised and unsupervised learning techniques. I learned how to implement algorithms like decision trees, support vector machines (SVMs), and k-means clustering for real-world applications. The course emphasized the importance of model evaluation, cross-validation, and hyperparameter tuning to optimize performance. I applied these concepts using Python and scikit-learn, completing hands-on projects that sharpened my skills in real-world machine learning problems.</p>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/VPKK12KKEKBA" class="cert-btn">View</a>
+            </div>
+            <div class="cert-cards">
+                <p class="cert-title">Unsupervised Learning, Recommenders, and Reinforcement Learning</p>
+                <p class="platform">Stanford University</p>
+                <p class="cert-time"> sep 2024</p>
+                <p class="cert-desc">In this course, I studied a variety of unsupervised learning techniques, such as k-means clustering and dimensionality reduction methods like PCA. I also gained practical experience with recommender systems and learned how to build personalized content recommendations using collaborative filtering. The course covered reinforcement learning algorithms like Q-learning, focusing on training models to make decisions in dynamic environments. This experience deepened my understanding of machine learning techniques and how they can be applied to real-world data and tasks.</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/B5SSNODFH9EF" class="cert-btn">View</a>
+            </div>
+            <div class="cert-cards">
+                <p class="cert-title">Programming with JavaScript</p>
+                <p class="platform">Meta</p>
+                <p class="cert-time"> nov 2024</p>
+                <p class="cert-desc">Through this course, I learned the fundamentals of JavaScript programming, focusing on key concepts like DOM manipulation, event handling, and asynchronous programming using Promises and async/await. The course emphasized writing modular, reusable code and implementing interactive, dynamic features in web applications. I also gained hands-on experience working with ES6+ features like arrow functions, modules, and destructuring. By the end of the course, I developed a strong understanding of JavaScript and its role in modern web development.</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/N9KM7P1PNEMJ" class="cert-btn">View</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Socials-->
+
+    <div class="social-section">
+        <p class="heading">Socials</p>
+        <div class="social-list">
+            <div class="social-card">
+                <a href="https://github.com/abhayyyy24" class="social-btn">
+                    <img src="./assets/github.svg" alt="git">
+                    Github
+                </a>
+                <a href="https://www.hackerrank.com/profile/pawar2abhay1910" class="social-btn">
+                    <img src="./assets/hackerrank.svg" alt="git">
+                    HackerRank
+                </a>
+                <a href="https://www.linkedin.com/in/abhay-pawar-422964296" class="social-btn">
+                    <img src="./assets/linkedin-icon.svg" alt="git">
+                    linkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
     
     
     <script src="./logic.js"></script>
