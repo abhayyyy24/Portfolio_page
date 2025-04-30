@@ -24,6 +24,7 @@
     color: #fefaff;
     font-family: monospace;
     font-size: 1rem;
+    
 }
 .hamburger{
     display: none;
@@ -33,11 +34,13 @@
     position:absolute;
     top:1.5rem;
     right:2rem;
+    
 }
 
 @media (max-width: 768px){
     .hamburger{
         display: block;
+        
     }
     .links{
         display: none;
@@ -45,18 +48,27 @@
         background-color:rgb(229, 230, 234);
         position: absolute;
         top:25px;
-        right:2vh;
+        right:6vh;
         text-align: center;
         gap:1rem;
         padding:1.5rem;
         border-radius: 15px;
+        
     }
     
     
     .links.active{
         display: flex;
-        background-color: inherit;
+        background-color: #fefaff;
     }
+    
+    .links a{
+        background-color: #fefaff;
+        color:#07091f;
+        
+        
+    }
+
     
 }
 
@@ -68,7 +80,7 @@
     display: flex;
     justify-content:center;
     gap:5rem;
-    margin-top: 7vh;
+    margin-top: 5vh;
     
 }
 .hi{
@@ -103,7 +115,7 @@
 }
 
 .download{
-    margin-top: 2vh;
+    margin-top: 6vh;
 }
 
 .down-btn {
@@ -249,6 +261,7 @@
     width: 50%;
     animation: movedown 1s linear forwards;
     opacity: 0;
+    z-index: 0;
 }
 @keyframes movedown{
     0%{
@@ -273,6 +286,7 @@
     background-color:#fefaff ;
     position: relative;
     border-radius: 15px;
+    
 }
 .left-container{
     left:0;
@@ -282,11 +296,12 @@
 }
 .container img{
     position: absolute;
-    width:40px;
+    width:50px;
     border-radius: 50%;
     right:-20px;
+    background-color: #fefaff;
     top:32px;
-    z-index: 10;
+    z-index: 2;
 }
 .right-container img{
     left:-20px;
@@ -295,13 +310,14 @@
 .timeline::after{
     content: '';
     position: absolute;
-    width:6px;
+    width:2px;
     height: 100%;
     background: #fefaff;
     top:0;
     left:50%;
     margin-left:-3px; 
     animation:moveline 6s linear forwards; 
+    z-index: 1;
 }
 @keyframes moveline{
     0%{
@@ -323,6 +339,7 @@
     font-family: poppins;
     font-size: 1.1rem;
     font-weight: 600;
+    color:#0077B5
 }
 
 .exp-date{
@@ -494,7 +511,7 @@
     font-weight: 500;
     font-size: 1.2rem;
     letter-spacing: 1px;
-    color:#FB8500;
+    color:#0077B5;
 }
 .edu-uni{
     padding-top: 1vh;
@@ -503,12 +520,14 @@
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 1px;
+    
 }
 .edu-time{
     background-color: inherit;
     font-family: poppins;
     font-weight: 500;
     font-size: .9rem;
+    color:#FB8500;
     
 }
 .edu-course{
@@ -555,19 +574,19 @@
     background-color: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1.3rem;
-    color:#FB8500
+    
 }
 .platform{
     background-color: inherit;
     padding-top:1vh;
     font-family: poppins;
-
+    color:#0077B5
 }
 .cert-time{
     background-color: inherit;
     font-family: monospace;
     font-size: .9rem;
-    
+    color: #FB8500;
 }
 .cert-desc{
     background-color: inherit;
